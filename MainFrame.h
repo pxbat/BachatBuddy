@@ -31,6 +31,13 @@ private:
 
 
 
+    wxButton* viewTotalsButton;
+
+
+
+    void OnViewTotalsButtonClicked(wxCommandEvent& evt);
+
+
     // Member variables
     std::vector<wxString> categoryList;
     bool isDarkMode = false;
